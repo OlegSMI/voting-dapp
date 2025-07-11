@@ -7,7 +7,7 @@ import { Voting } from '../target/types/voting'
 
 import IDL from '../target/idl/voting.json'
 
-const votingAddress = new PublicKey('6RMzzoy8iRv9a6ATQbxva3p5GCLFtBukjVN195aBNmQ8')
+const votingAddress = new PublicKey('QyGwhKnHA6k6eJdmAL4EWkGY6urXXZUrKvciRNUPCPF')
 
 describe('Voting', () => {
   let context
