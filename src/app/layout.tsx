@@ -1,8 +1,8 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { AppProviders } from '@/components/app-providers'
 import { AppLayout } from '@/components/app-layout'
+import { AppProviders } from '@/components/app-providers'
+import type { Metadata } from 'next'
 import React from 'react'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Votingdapp',

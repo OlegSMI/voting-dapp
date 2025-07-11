@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./web/*"],
+      "@/*": ["./src/*"],
       "@voting-dapp/anchor": ["anchor/src/index.ts"]
     }
   },
