@@ -1,14 +1,14 @@
 'use client'
 
-import { getCounterProgram, getCounterProgramId } from '@project/anchor'
 import { useConnection } from '@solana/wallet-adapter-react'
 import { Cluster, Keypair, PublicKey } from '@solana/web3.js'
 import { useMutation, useQuery } from '@tanstack/react-query'
+import { getCounterProgram, getCounterProgramId } from '@voting-dapp/anchor'
 import { useMemo } from 'react'
+import { toast } from 'sonner'
 import { useCluster } from '../cluster/cluster-data-access'
 import { useAnchorProvider } from '../solana/solana-provider'
 import { useTransactionToast } from '../use-transaction-toast'
-import { toast } from 'sonner'
 
 export function useCounterProgram() {
   const { connection } = useConnection()
